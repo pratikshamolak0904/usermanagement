@@ -11,7 +11,7 @@ server.use(bodyParser.json())
 server.use('/api',userRoutes)
 
 
-mongoose.connect('mongodb://localhost:27017/meandb',{
+mongoose.connect('mongodb+srv://Pratiksha:CJ3adVHdH5PR1l2k@userbackend.uui9e.mongodb.net/',{
     useNewURLParser:true,
     useUnifiedTopology:true
 }).then(()=>{
